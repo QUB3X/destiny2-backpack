@@ -1,0 +1,13 @@
+// All the styles are distributed in the corresponding
+// Category file
+@import "reset"; // Unifies the style across browsers (overrides defaults)
+@import "variables"; // The variables for colors, font-sizes, etc.
+@import "typography"; // Text Size of text element
+@import "layout"; // The layout elements, the shape of the page.
+@import "ui"; // Buttons, links, text, etc.
+@import "animations";
+// * sets default for every element
+* {
+  font-family: $font-stack;
+  box-sizing: border-box;
+}
